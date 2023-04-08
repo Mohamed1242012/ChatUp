@@ -1,0 +1,44 @@
+.btn-primary:hover{
+    background-color: #5544c5;
+}
+
+@media (max-width:992px) {
+
+    /*outside of the price cards*/
+    .price-title{
+        font-size: 3.5rem;
+    }
+    .price-desc{
+        font-size: 2.5rem;
+    }
+    .price-col{
+        width: 100%;
+        display: block;
+    }
+    .card-end{
+        margin: 5%;
+    }
+
+
+    /*inside of the price cards*/
+    .card-h-txt,.card-h-txt-s{
+        font-size: 2.5rem;
+    }
+    .card-body{
+        font-size: 2rem;
+        padding: 5%;
+    }
+    .price-pricing{
+        font-size: 3rem;
+        margin-bottom: 5%;
+    }
+    .price-fet{
+        line-height: 2;
+    } 
+    .d-p-b{
+        height: 23%;
+        width: 100%;
+        font-size: 3rem;
+        margin: 5% auto 0 auto;
+    }
+}

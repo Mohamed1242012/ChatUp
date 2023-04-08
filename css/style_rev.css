@@ -1,0 +1,19 @@
+@media (max-width:992px) {
+    .rev-txt{
+        font-size: 3.5rem;
+    }
+    .per-img{
+        height: 12%;
+        width: 12%;
+    }
+    em{
+        font-size: 2rem;
+    }
+    .rev-wrirter-name{
+        margin-top: 10%;
+    }
+    .carousel-icon-size{
+        width: 4rem;
+        height: 4rem;
+    }
+}

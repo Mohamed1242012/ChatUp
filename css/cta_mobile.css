@@ -1,0 +1,12 @@
+@media (max-width:992px) {
+    .dow-but-2{
+        padding: 3%;
+        width: 100%;
+        font-size: 3rem;
+        margin: 5% auto 5% auto;
+    }
+    .cta-text{
+        font-size: 3.5rem;
+        margin-bottom: 3%;
+    }
+}

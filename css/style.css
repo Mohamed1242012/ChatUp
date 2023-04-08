@@ -1,0 +1,232 @@
+body{
+    font-family: 'Ubuntu' ;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    margin-bottom: 5%;
+}
+.col-ed-h{
+    height: 600px;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.app-img{
+    height: 80%;
+    position: relative;
+
+}
+#title{
+    background-color:SlateBlue;
+    padding: 5% 12% 2% 12%;
+}
+.logo{
+    height: 60px;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    line-height: 1.3;
+}
+.why-c{
+    margin-bottom: 4rem;
+}
+.fet-i{
+    margin-bottom: 1rem;
+    color: SlateBlue;
+}
+.fet-i:hover{
+    color:darkslateblue;
+}
+.dow-but{
+    margin: 10% 2%;
+    position: relative;
+    z-index: 2;
+}
+h2{
+    font-weight: bold;
+    color:darkslateblue;
+    font-size: 2.25rem;
+}
+h3{
+    font-weight: bold;
+    color:midnightblue;
+}
+p{
+    color:gray;
+}
+.fet-par{
+    padding: 2.5% 10% 0 10%;
+}
+
+#features{
+    background-color: white;
+    text-align: center;
+    padding: 5% 12%;
+}
+#reviews{
+    background-color: SlateBlue;
+    text-align: center;
+    padding: 170px 0;
+}
+.rev-txt{
+    padding: 0 20%;
+    color: white;
+}
+em{
+    color: white;
+}
+.per-img{
+    width: 5%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#pricing{
+    text-align: center;
+    padding: 150px;
+}
+.card-h-txt{
+    color: SlateBlue;
+}
+.card-h-txt-s{
+    color: #fff;
+}
+.btn-outline-primary{
+    border-color: SlateBlue;
+    color:SlateBlue;
+}
+.btn-outline-primary:hover{
+    border-color: SlateBlue;
+    background-color: SlateBlue;
+    color:#fff;
+}
+.btn-primary{
+    border-color: SlateBlue;
+    background-color: SlateBlue;
+}
+.card-edit{
+    border-color: SlateBlue;
+}
+.card-hed-edit{
+    background-color: SlateBlue;
+}
+.card-rows{
+    margin-top: 7%;
+}
+.price-title{
+    margin-bottom: 1.5%;
+}
+.card{
+    margin: 5%;
+}
+.card-end{
+    margin: 2.5%;
+}
+#cta{
+    background-color: slateblue;
+    text-align: center;
+    padding: 150px 100px 150px 100px;
+}
+.dow-but-2{
+    margin: 3rem;
+}
+.cta-text{
+    color: #fff;
+}
+#footer{
+    padding: 130px;
+    text-align: center;
+}
+.so-mi{
+    margin: 2rem;
+}
+.ash-c{
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+
+
+
+
+@media (max-width:1240px) and (min-width:992px) {
+    .app-img{
+        height: 70%;
+    }
+}
+@media (max-width:1092px) and (min-width:992px) {
+    .app-img{
+        height: 65%;
+    }
+}
+@media (max-width:1020px) and (min-width:992px) {
+    .app-img{
+        height: 60%;
+    }
+}
+
+/* mobile edits */
+
+@media (max-width:992px) {
+    .sp-col{
+        height: 650px;
+    }
+    .app-img{
+        height: 95%;
+    }
+    #title{
+        text-align: center;
+    }
+    .sp-col-2{
+        height: 550px;
+    }
+    .navbar-toggler-icon{
+        height: 4rem;
+        width: 4rem;
+    }
+    nav,.navbar-brand{
+        font-size: 3.5rem;
+    }
+    .logo{
+        height: 7rem;
+    }
+    .dow-but{
+        height: 18%;
+        width: 100%;
+        margin: 5% auto 5% auto;
+        font-size: 3rem;
+    }
+    .fa-google-play,.fa-apple{
+        margin-right: 2%;
+    }
+    #title{
+        padding: 5% 7% 0% 7%;
+    }
+    .nav-item{
+        margin: 2% 0 2% 0;
+    }
+
+}
+
+@media (max-width:885px) {
+    .app-img{
+        height: 65%;
+        margin-top: 80px;
+    }
+}
+@media (max-width:643px) {
+    .app-img{
+        height: 63%;
+        margin-top: 130px;
+    }
+}
+@media (max-width:553px) {
+    .app-img{
+        height: 60%;
+        margin-top: 200px;
+    }
+}
